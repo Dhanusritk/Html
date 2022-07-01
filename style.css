@@ -1,0 +1,123 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-size: 1.1em;
+    
+}
+.parent_container{
+    background-color:black;
+    width: 100vw;
+    /* height: 100vh; */
+    display: flex;
+    flex-direction: column;
+}
+
+.kebabs{
+    background-color:teal;
+    width: 100vw;
+    height: 75vh;
+    border: 10px solid black;
+    margin-top: 0.5%;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    margin-bottom: 0.5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+#titleName{
+    position: absolute;
+    top: 40%;
+    width: 17%;
+    
+    
+}
+#titleImage{
+    border: 5px solid wheat;
+    border-style:double;
+    width:100vw;
+    height:75vh;
+
+}
+#favFoodImage1{
+    width:700px;
+    height:400px;
+}
+#favFoodImage2{
+    width:700px;
+     height:400px;
+
+}
+#favFoodImage3{
+    width:700px ;
+    height:400px;
+}
+.pizzas{
+    background-color:tomato;
+    width:100vw;
+    height:75vh;
+    border: 10px solid  black;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    margin-bottom: 0.5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* #favFood1{
+    position: absolute;
+   
+    top: 150px;
+} */
+.foodDescription{
+    position:absolute;
+    top:150px;
+    width: 150px;
+}
+#favFoodImage1{
+    border: 5px solid wheat;
+    border-style:double;
+}
+.friedchicken{
+    background-color: sandybrown;
+    width: 100vw;
+    height: 75vh;
+    border: 10px solid black;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    margin-bottom: 0.5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+
+}
+#favFoodImage2{
+    border: 5px solid wheat;
+    border-style:double;
+
+}
+.veggies{
+    background-color: firebrick;
+    width: 100vw;
+    height: 75vh;
+    border: 10px solid black;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    margin-bottom: 0.5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#favFoodImage3{
+    padding: 2%;
+
+    border: 5px solid wheat;
+    border-style:double;
+}
